@@ -22,7 +22,7 @@ function varargout = tampilangui(varargin)
 
 % Edit the above text to modify the response to help tampilangui
 
-% Last Modified by GUIDE v2.5 15-Feb-2024 12:40:54
+% Last Modified by GUIDE v2.5 15-Feb-2024 12:46:56
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -78,3 +78,10 @@ function figure1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to figure1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
+
+
+% --- Executes on button press in pushbutton1.
+function pushbutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
